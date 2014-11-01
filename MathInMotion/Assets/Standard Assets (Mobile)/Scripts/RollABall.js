@@ -28,7 +28,7 @@ function LateUpdate()
 	
 	movement = Vector3(movement.z,0,  -movement.x);
 	
-	transform.Rotate(movement / circ * 360, Space.World);
+	transform.Rotate( movement / circ * 360, Space.World );
 	
 	previousPosition = transform.position;	
 	
