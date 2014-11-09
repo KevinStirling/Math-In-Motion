@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{BDDA9FE5-CECB-3B39-BD11-8DD98A2A2E17}") = "MathInMotion", "Assembly-CSharp-firstpass-vs.csproj", "{9075EAB7-6EA8-22D5-71E5-FAF51BE2B2D7}"
 EndProject
+Project("{BDDA9FE5-CECB-3B39-BD11-8DD98A2A2E17}") = "MathInMotion", "Assembly-CSharp-vs.csproj", "{C49FF95E-1869-FD9B-FB6A-E3A3EEB457DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{9075EAB7-6EA8-22D5-71E5-FAF51BE2B2D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9075EAB7-6EA8-22D5-71E5-FAF51BE2B2D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9075EAB7-6EA8-22D5-71E5-FAF51BE2B2D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C49FF95E-1869-FD9B-FB6A-E3A3EEB457DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C49FF95E-1869-FD9B-FB6A-E3A3EEB457DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C49FF95E-1869-FD9B-FB6A-E3A3EEB457DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C49FF95E-1869-FD9B-FB6A-E3A3EEB457DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-										GlobalSection(MonoDevelopProperties) = preSolution
+											GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
