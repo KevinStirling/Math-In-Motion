@@ -46,9 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\GameController.cs" />
-     <Compile Include="Assets\Scripts\LearnSceneNumberController.cs" />
-     <Compile Include="Assets\Scripts\NumberController.cs" />
+     <Compile Include="Assets\Scripts\NumberLearnGameController.cs" />
+     <Compile Include="Assets\Scripts\NumberLearnNumberController.cs" />
+     <Compile Include="Assets\Scripts\NumberRecGameController.cs" />
+     <Compile Include="Assets\Scripts\NumberRecNumberController.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
