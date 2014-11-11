@@ -1,10 +1,7 @@
 fileFormatVersion: 2
-guid: c680c6ae4d4c00a439f9194a52348d0c
+guid: 8fca80f4f3732ea40bf597f4701db9f7
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Five_0
-    21300002: Five_1
-    21300004: Five_2
+  fileIDToRecycleName: {}
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -28,13 +25,13 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: 1
+    aniso: -1
     mipBias: -1
-    wrapMode: 1
+    wrapMode: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -45,36 +42,6 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites:
-    - name: Five_0
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 606
-        width: 109
-        height: 168
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Five_1
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 302
-        width: 116
-        height: 174
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Five_2
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 16
-        width: 108
-        height: 164
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+    sprites: []
   spritePackingTag: 
   userData: 
