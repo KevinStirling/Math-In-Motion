@@ -1,17 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class NumberController : MonoBehaviour {
+public class NumberRecNumberController : MonoBehaviour {
 	public Sprite Num_Over;
 	public Sprite Num_Normal;
 	public Sprite Num_Clicked;
 
 	private SpriteRenderer spriteRenderer;
-	private Vector3 currrentPos;
+	//private Vector3 currrentPos;
 	private Vector3 finalPos;
 
-	public GameController Game_Controller;
+	public NumberRecGameController NR_Game_Controller;
 
+	//set in inspector - not by script!
+	public int myNumber;//zero indexed value of the number displayed - i.e. the 10 graphic will have a value of 9
+	public AudioClip[] sounds ;
 
 	// Use this for initialization
 	void Start () {
@@ -24,6 +27,7 @@ public class NumberController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+	
 	}
 
 	void OnMouseEnter() { 
@@ -35,9 +39,18 @@ public class NumberController : MonoBehaviour {
 	}
 
 	void OnMouseDown(){
-		Game_Controller.addScore (10);
 		spriteRenderer.sprite = Num_Clicked;
-		audio.Play ();
+		if (myNumber == NR_Game_Controller.currentNumber) 
+		{
+			audio.clip=sounds[0];
+			audio.Play();
+			NR_Game_Controller.addScore (10);
+			NR_Game_Controller.currentNumber = 0;//reset the flag so a new number get chosen
+		} else 
+		{
+			audio.clip=sounds[1];
+			audio.Play();
+		}
 	}
 	void OnMouseUp(){
 		spriteRenderer.sprite = Num_Over;
