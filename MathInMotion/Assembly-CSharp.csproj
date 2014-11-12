@@ -46,14 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\LeapMotion\Leap_Boilerplate\scripts\LeapExtensions.cs" />
-     <Compile Include="Assets\LeapMotion\Leap_Boilerplate\scripts\LeapManager.cs" />
-     <Compile Include="Assets\LeapMotion\Leap_Boilerplate\scripts_for_example_scenes\FingerCountChecker.cs" />
-     <Compile Include="Assets\LeapMotion\Leap_Boilerplate\scripts_for_example_scenes\HandController.cs" />
-     <Compile Include="Assets\LeapMotion\Leap_Boilerplate\scripts_for_example_scenes\HandOpenChecker.cs" />
-     <Compile Include="Assets\LeapMotion\Leap_Boilerplate\scripts_for_example_scenes\RevolvingCamera.cs" />
-     <Compile Include="Assets\LeapMotion\Leap_Boilerplate\scripts_for_example_scenes\ScreenMover.cs" />
-     <Compile Include="Assets\LeapMotion\Leap_Boilerplate\scripts_for_example_scenes\WorldMover.cs" />
      <Compile Include="Assets\Scripts\NumberLearnGameController.cs" />
      <Compile Include="Assets\Scripts\NumberLearnNumberController.cs" />
      <Compile Include="Assets\Scripts\NumberRecGameController.cs" />
@@ -65,7 +57,6 @@
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
-     <None Include="Assets\LeapMotion\Leap_Boilerplate\readme.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />

@@ -35,7 +35,7 @@ public class NumberRecGameController : MonoBehaviour {
 	{
 		currentNumber = -1; //flag for delay waiting
 		yield return new WaitForSeconds (2);
-		currentNumber = Random.Range (0,9);//select a random number
+		currentNumber = Random.Range (0,10);//select a random number between 0 and 9 inclusive
 		audio.clip = voicePrompts [currentNumber];//use voiceprompt for current number
 		audio.Play ();//speak the current number
 	}

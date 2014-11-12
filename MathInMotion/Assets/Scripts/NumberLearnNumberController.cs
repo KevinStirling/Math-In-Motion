@@ -38,6 +38,7 @@ public class NumberLearnNumberController : MonoBehaviour {
 	void OnMouseDown(){
 		NL_Game_Controller.addScore (10);
 		spriteRenderer.sprite = Num_Clicked;
+		audio.volume = 1;
 		audio.Play ();
 	}
 	void OnMouseUp(){
