@@ -11,13 +11,13 @@ public class NumberRecGameController : MonoBehaviour {
 	void Start () {
 		score = 0;
 		updateScore ();
-		currentNumber = 0; //no prompt yet; -1 means in delay
+		currentNumber = -2; //no prompt yet; -1 means in delay
 
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if(currentNumber == 0)	StartCoroutine(DelayBetweenPrompts());
+		if(currentNumber == -2)	StartCoroutine(DelayBetweenPrompts());
 	}
 
 	public void addScore(int newScoreValue)

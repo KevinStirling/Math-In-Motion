@@ -45,14 +45,21 @@ public class NumberRecNumberController : MonoBehaviour {
 			audio.clip=sounds[0];
 			audio.Play();
 			NR_Game_Controller.addScore (10);
-			NR_Game_Controller.currentNumber = 0;//reset the flag so a new number get chosen
+			NR_Game_Controller.currentNumber = -2;//reset the flag so a new number get chosen
 		} else 
 		{
 			audio.clip=sounds[1];
 			audio.Play();
+			StartCoroutine(delayReplay ());	//wait 3 seconds and repeat number
 		}
 	}
 	void OnMouseUp(){
 		spriteRenderer.sprite = Num_Over;
+	}
+
+	private IEnumerator delayReplay()
+	{
+		yield return new WaitForSeconds (1);
+		NR_Game_Controller.audio.Play();
 	}
 }
