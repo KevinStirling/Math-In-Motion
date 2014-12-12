@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CountingGameController.cs" />
+     <Compile Include="Assets\Scripts\CountingNumberController.cs" />
      <Compile Include="Assets\Scripts\NumberLearnGameController.cs" />
      <Compile Include="Assets\Scripts\NumberLearnNumberController.cs" />
      <Compile Include="Assets\Scripts\NumberRecGameController.cs" />
