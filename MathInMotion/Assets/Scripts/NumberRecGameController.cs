@@ -5,14 +5,16 @@ public class NumberRecGameController : MonoBehaviour {
 	public int score;
 	public GUIText scoreText;
 	public int currentNumber; //current number that the player was prompted to select
-	public AudioClip[] voicePrompts ;
+	public AudioClip[] voicePrompts;
+	public AudioClip instructions;
 
 	// Use this for initialization
 	void Start () {
 		score = 0;
 		updateScore ();
 		currentNumber = -2; //no prompt yet; -1 means in delay
-
+		audio.clip = instructions;
+		audio.Play ();
 	}
 	
 	// Update is called once per frame
@@ -34,7 +36,7 @@ public class NumberRecGameController : MonoBehaviour {
 	public IEnumerator DelayBetweenPrompts()
 	{
 		currentNumber = -1; //flag for delay waiting
-		yield return new WaitForSeconds (2);
+		yield return new WaitForSeconds (4);
 		currentNumber = Random.Range (0,10);//select a random number between 0 and 9 inclusive
 		audio.clip = voicePrompts [currentNumber];//use voiceprompt for current number
 		audio.Play ();//speak the current number

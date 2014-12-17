@@ -1,11 +1,14 @@
 ﻿var Button: Sprite;
 //var Button_Over: Sprite;
 //var Button_Down: Sprite;
+var upAmount = 0.5;
+var speed = 0.5;
 
-//function OnMouseEnter()
-//{
-//GetComponent(SpriteRenderer).sprite = Button_Over;
-//}
+//private var downPos : Vector3;
+//private var upPos : Vector3;
+//private var curPos : Vector3;
+
+
 
 //function OnMouseExit()
 //{
